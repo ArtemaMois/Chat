@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Nickainley-Normal';
+	src: url('../fonts/nickainley-normal.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/nickainley-normal.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/nickainley-normal.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/nickainley-normal.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/nickainley-normal.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/nickainley-normal.svg#nickainley-normal') format('svg'); /* Chrome < 4, Legacy iOS */
+}

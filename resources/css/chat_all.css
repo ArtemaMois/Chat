@@ -1,0 +1,86 @@
+.chat{
+    height: fit-content;
+}
+
+
+.chat__container{
+    width: 500px;
+    margin: 50px 0 0 150px;
+    display: flex;
+    flex-direction: column;
+}
+.chat__header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+.chat__form{
+    margin-top: 20px;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat__input{
+    width: 200px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.chat__submit{
+    margin-left: 20px;
+    padding: 5px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(31, 31, 203);
+    border-radius: 12px;
+}
+
+.chat__list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    margin: 20px 0;
+    padding: 15px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.myself{
+    background-color: rgba(50, 50, 198, 0.237);
+    color: white;
+}
+
+.message__user{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(38, 0, 255);
+}
+
+.message__body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.message__time{
+    width: 100px;
+    margin-left: calc(100% - 100px);
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: rgb(203, 203, 203);
+}

@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
+
+@font-face {
+    font-family: 'Nickainley-Normal';
+    src: url('/public/fonts/nickainley-normal.woff2');
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+html {
+    height: 100%
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+
+nav {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    background-color: black;
+    border-bottom: 1px solid rgb(214, 20, 120);
+    -webkit-box-shadow: 0px 17px 25px -12px rgb(214, 20, 120);
+    -moz-box-shadow: 0px 17px 25px -12px rgb(214, 20, 120);
+    box-shadow: 0px 17px 25px -12px rgb(214, 20, 120);
+}
+
+.navbar {
+    width: 85vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.navbar__container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nickainley-Normal', sans-serif;
+
+}
+
+.navbar__logo {
+    font-family: 'Nickainley-Normal', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.chill,
+.navbar__logo {
+    letter-spacing: 1px;
+    color: white;
+    text-shadow:
+        0 0 7px rgb(255, 111, 197),
+        0 0 10px rgb(255, 111, 197),
+        0 0 21px rgb(255, 111, 197),
+        0 0 42px rgb(255, 111, 197),
+        0 0 82px rgb(255, 111, 197),
+        0 0 92px rgb(255, 111, 197),
+        0 0 102px rgb(255, 111, 197),
+        0 0 151px rgb(255, 111, 197);
+}
+
+
+.navbar__list {
+    margin-right: 20px;
+    width: 230px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar__item {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all .3s;
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+.navbar__logout{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all .3s;
+    letter-spacing: 1px;
+    color: rgb(255, 0, 0);
+    text-shadow:
+        0 0 7px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 21px rgb(255, 0, 0),
+        0 0 42px rgb(255, 0, 0),
+        0 0 82px rgb(255, 0, 0),
+        0 0 92px rgb(255, 0, 0),
+        0 0 102px rgb(255, 0, 0),
+        0 0 151px rgb(255, 0, 0);
+}
+
+

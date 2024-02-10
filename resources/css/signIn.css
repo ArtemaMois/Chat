@@ -1,0 +1,81 @@
+
+main{
+    background-color: black;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid white;
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.signin{
+    height: calc((100vh - 100px));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin__header{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Nickainley-Normal', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+        0 0 7px rgb(254, 140, 140),
+        0 0 10px rgb(254, 140, 140),
+        0 0 21px rgb(254, 140, 140),
+        0 0 42px rgb(254, 140, 140),
+        0 0 82px rgb(254, 140, 140),
+        0 0 92px rgb(254, 140, 140),
+        0 0 102px rgb(254, 140, 140),
+        0 0 151px rgb(254, 140, 140);
+}
+
+.signin__form{
+    margin-top: 40px;
+    width: 280px;
+    height: 220px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.signin__input{
+    padding: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.signin__submit{
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 25px;
+}
